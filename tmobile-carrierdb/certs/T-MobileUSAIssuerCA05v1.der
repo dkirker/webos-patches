@@ -1,0 +1,108 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            61:b7:b4:03:00:00:00:00:00:07
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: CN=T-Mobile USA Intermediate CA 01
+        Validity
+            Not Before: Mar  8 20:00:27 2011 GMT
+            Not After : Mar  8 20:10:27 2016 GMT
+        Subject: DC=org, DC=gsm1900, CN=T-Mobile USA Issuer CA 05 v1
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:a9:1c:ec:e4:6d:44:05:c2:a1:ff:25:a6:ed:a1:
+                    bd:2b:41:67:b9:66:6a:28:8a:ad:06:58:75:64:0c:
+                    25:32:5b:b7:40:85:6a:50:a7:28:c6:43:9c:91:9c:
+                    50:90:d0:b5:2d:80:47:30:2b:84:82:a6:5e:ed:2b:
+                    39:42:4b:fd:93:fc:f4:07:08:6d:3b:59:9a:ed:cf:
+                    39:55:af:68:97:a3:31:63:4d:2c:6f:35:46:b9:56:
+                    3e:fc:58:67:c7:b1:53:ab:a8:c3:c8:5b:5b:7e:29:
+                    30:35:bc:36:77:13:f5:1a:6e:fd:51:3b:42:67:c7:
+                    f1:2c:a2:be:46:e3:dd:ed:96:58:e2:97:a9:88:f2:
+                    c8:ac:fb:e2:18:4f:81:70:44:53:ef:d2:46:fc:01:
+                    12:5d:3b:78:0d:0c:a6:30:b7:f3:31:28:0b:fe:24:
+                    bf:85:bd:72:d9:62:fc:51:f1:b8:97:b7:2b:b5:4d:
+                    77:d9:f5:64:c0:74:1d:12:51:6b:45:0b:81:3b:80:
+                    ab:93:9f:4b:d5:ca:6e:cc:dc:38:86:35:63:0f:8f:
+                    d1:7e:ea:31:46:92:3b:c5:60:1a:18:57:4b:39:2b:
+                    a9:5b:0b:4b:b7:0a:60:29:e9:89:15:66:23:d6:d2:
+                    c5:71:ce:98:a5:84:98:f1:53:16:1f:2b:07:ca:0c:
+                    76:97
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            1.3.6.1.4.1.311.21.1: 
+                ...
+            X509v3 Subject Key Identifier: 
+                5D:A4:FA:17:B0:F3:09:AC:53:15:AA:84:C4:D6:3B:FA:46:A8:F9:8C
+            1.3.6.1.4.1.311.20.2: 
+                .
+.S.u.b.C.A
+            X509v3 Key Usage: 
+                Digital Signature, Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Authority Key Identifier: 
+                keyid:8E:CD:20:52:D9:2F:7F:92:6E:DA:88:B3:FC:A1:B9:30:EC:A5:AB:5B
+
+            X509v3 CRL Distribution Points: 
+                URI:ldap:///CN=T-Mobile%20USA%20Intermediate%20CA%2001,CN=nxprdaspki02,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=GSM1900,DC=ORG?certificateRevocationList?base?objectClass=cRLDistributionPoint
+                URI:http://dp.t-mobile.com/PKI/T-Mobile%20USA%20Intermediate%20CA%2001.crl
+
+            Authority Information Access: 
+                CA Issuers - URI:ldap:///CN=T-Mobile%20USA%20Intermediate%20CA%2001,CN=AIA,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=GSM1900,DC=ORG?cACertificate?base?objectClass=certificationAuthority
+                CA Issuers - URI:http://dp.t-mobile.com/PKI/T-Mobile%20USA%20Intermediate%20CA%2001.crt
+
+    Signature Algorithm: sha1WithRSAEncryption
+        20:76:30:c5:d3:38:c5:16:6a:f7:68:f3:f9:d5:9e:c4:47:b3:
+        ff:c5:f1:89:c4:88:b6:8b:82:ff:2e:03:06:60:9f:75:e2:1f:
+        74:a1:f4:8b:7c:45:8c:80:bd:0d:e8:c2:15:e2:08:0f:26:29:
+        fb:b1:75:94:f0:e5:0e:28:b3:c7:29:bd:b5:e5:08:51:3d:06:
+        1c:05:da:e9:19:d3:5d:7b:f0:d7:17:49:0e:e2:67:3b:84:72:
+        c4:6c:c3:0a:ff:fe:82:c0:71:b3:37:17:64:12:53:bd:f0:96:
+        25:80:55:9b:ad:51:a8:1a:7c:00:87:b4:56:f8:9f:69:24:1e:
+        12:3a:68:61:d2:1b:37:5e:54:90:f6:a4:19:ac:c5:d8:54:40:
+        10:6a:9d:2b:4a:ea:f1:7b:6e:4f:0a:30:33:d1:0f:88:92:5f:
+        5a:b5:dd:d6:88:c1:64:1b:ea:ef:b5:99:33:e0:47:ee:b2:e3:
+        17:f7:d1:7f:56:9f:22:10:2d:7a:c4:20:e2:5b:f5:86:46:39:
+        d2:0c:dd:cd:47:c9:ff:2f:1a:f5:19:a2:a2:a5:5e:8e:e7:4e:
+        48:fb:12:8c:30:1a:7e:06:7e:03:46:e0:99:4a:1e:aa:51:cd:
+        5c:1d:a0:71:8f:ee:68:42:0e:a8:92:97:c5:a5:e7:45:67:ae:
+        04:7c:87:5f
+-----BEGIN CERTIFICATE-----
+MIIGAjCCBOqgAwIBAgIKYbe0AwAAAAAABzANBgkqhkiG9w0BAQUFADAqMSgwJgYD
+VQQDEx9ULU1vYmlsZSBVU0EgSW50ZXJtZWRpYXRlIENBIDAxMB4XDTExMDMwODIw
+MDAyN1oXDTE2MDMwODIwMTAyN1owVTETMBEGCgmSJomT8ixkARkWA29yZzEXMBUG
+CgmSJomT8ixkARkWB2dzbTE5MDAxJTAjBgNVBAMTHFQtTW9iaWxlIFVTQSBJc3N1
+ZXIgQ0EgMDUgdjEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpHOzk
+bUQFwqH/Jabtob0rQWe5Zmooiq0GWHVkDCUyW7dAhWpQpyjGQ5yRnFCQ0LUtgEcw
+K4SCpl7tKzlCS/2T/PQHCG07WZrtzzlVr2iXozFjTSxvNUa5Vj78WGfHsVOrqMPI
+W1t+KTA1vDZ3E/Uabv1RO0Jnx/Esor5G493tlljil6mI8sis++IYT4FwRFPv0kb8
+ARJdO3gNDKYwt/MxKAv+JL+FvXLZYvxR8biXtyu1TXfZ9WTAdB0SUWtFC4E7gKuT
+n0vVym7M3DiGNWMPj9F+6jFGkjvFYBoYV0s5K6lbC0u3CmAp6YkVZiPW0sVxzpil
+hJjxUxYfKwfKDHaXAgMBAAGjggL9MIIC+TAQBgkrBgEEAYI3FQEEAwIBADAdBgNV
+HQ4EFgQUXaT6F7DzCaxTFaqExNY7+kao+YwwGQYJKwYBBAGCNxQCBAweCgBTAHUA
+YgBDAEEwCwYDVR0PBAQDAgGGMA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0jBBgwFoAU
+js0gUtkvf5Ju2oiz/KG5MOylq1swggE3BgNVHR8EggEuMIIBKjCCASagggEioIIB
+HoaB02xkYXA6Ly8vQ049VC1Nb2JpbGUlMjBVU0ElMjBJbnRlcm1lZGlhdGUlMjBD
+QSUyMDAxLENOPW54cHJkYXNwa2kwMixDTj1DRFAsQ049UHVibGljJTIwS2V5JTIw
+U2VydmljZXMsQ049U2VydmljZXMsQ049Q29uZmlndXJhdGlvbixEQz1HU00xOTAw
+LERDPU9SRz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2U/b2JqZWN0Q2xh
+c3M9Y1JMRGlzdHJpYnV0aW9uUG9pbnSGRmh0dHA6Ly9kcC50LW1vYmlsZS5jb20v
+UEtJL1QtTW9iaWxlJTIwVVNBJTIwSW50ZXJtZWRpYXRlJTIwQ0ElMjAwMS5jcmww
+ggEvBggrBgEFBQcBAQSCASEwggEdMIHGBggrBgEFBQcwAoaBuWxkYXA6Ly8vQ049
+VC1Nb2JpbGUlMjBVU0ElMjBJbnRlcm1lZGlhdGUlMjBDQSUyMDAxLENOPUFJQSxD
+Tj1QdWJsaWMlMjBLZXklMjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxDTj1Db25maWd1
+cmF0aW9uLERDPUdTTTE5MDAsREM9T1JHP2NBQ2VydGlmaWNhdGU/YmFzZT9vYmpl
+Y3RDbGFzcz1jZXJ0aWZpY2F0aW9uQXV0aG9yaXR5MFIGCCsGAQUFBzAChkZodHRw
+Oi8vZHAudC1tb2JpbGUuY29tL1BLSS9ULU1vYmlsZSUyMFVTQSUyMEludGVybWVk
+aWF0ZSUyMENBJTIwMDEuY3J0MA0GCSqGSIb3DQEBBQUAA4IBAQAgdjDF0zjFFmr3
+aPP51Z7ER7P/xfGJxIi2i4L/LgMGYJ914h90ofSLfEWMgL0N6MIV4ggPJin7sXWU
+8OUOKLPHKb215QhRPQYcBdrpGdNde/DXF0kO4mc7hHLEbMMK//6CwHGzNxdkElO9
+8JYlgFWbrVGoGnwAh7RW+J9pJB4SOmhh0hs3XlSQ9qQZrMXYVEAQap0rSurxe25P
+CjAz0Q+Ikl9atd3WiMFkG+rvtZkz4EfusuMX99F/Vp8iEC16xCDiW/WGRjnSDN3N
+R8n/Lxr1GaKipV6O505I+xKMMBp+Bn4DRuCZSh6qUc1cHaBxj+5oQg6okpfFpedF
+Z64EfIdf
+-----END CERTIFICATE-----

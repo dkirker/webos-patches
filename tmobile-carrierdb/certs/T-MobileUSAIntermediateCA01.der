@@ -1,0 +1,111 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            61:02:1f:a3:00:00:00:00:00:02
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: CN=T-Mobile USA Root CA
+        Validity
+            Not Before: Jan  4 21:37:00 2007 GMT
+            Not After : Jan  4 21:47:00 2018 GMT
+        Subject: CN=T-Mobile USA Intermediate CA 01
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:98:62:14:c6:64:f2:01:60:46:1e:1c:d1:be:5c:
+                    7e:c4:72:50:71:8e:f1:b8:bf:f0:29:9d:a0:07:3a:
+                    26:5e:18:09:f1:0a:af:c4:b2:be:0f:e7:75:cc:96:
+                    7e:5b:0c:70:ef:57:08:32:3d:74:96:0f:03:2f:18:
+                    6c:60:45:53:9f:47:e9:8c:4a:a7:b9:13:3d:1a:91:
+                    a9:9b:5d:e6:3b:fd:0a:8c:e9:5c:40:9c:86:6a:b7:
+                    1f:0a:4b:36:d4:84:b9:3d:32:36:b7:7e:b7:6b:40:
+                    5e:e3:52:e9:22:97:cc:ab:5d:9d:79:85:bf:c5:1c:
+                    05:71:8a:7b:17:d4:6b:39:7d:5b:a4:2c:9b:cb:b3:
+                    08:42:58:e9:4e:f2:00:4e:71:a9:5b:6e:28:52:98:
+                    ea:10:49:e5:5e:40:35:ff:15:2b:27:ed:8f:79:b4:
+                    93:69:e2:60:45:4a:14:1b:38:33:70:03:21:c0:0a:
+                    ed:dd:7c:a1:4b:87:da:54:fb:a0:f0:71:42:3c:01:
+                    15:6f:e2:fb:8a:60:3f:f9:ce:7c:6f:ad:5a:e8:ad:
+                    21:72:5d:20:9b:f9:4f:bf:0f:47:f5:b7:8c:26:d9:
+                    ce:c9:5d:06:55:1f:22:24:82:b5:30:80:5c:82:65:
+                    66:68:0d:91:83:77:be:9a:58:c7:c3:8d:a4:0a:6d:
+                    81:b3
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Subject Key Identifier: 
+                8E:CD:20:52:D9:2F:7F:92:6E:DA:88:B3:FC:A1:B9:30:EC:A5:AB:5B
+            X509v3 Key Usage: 
+                Digital Signature, Certificate Sign, CRL Sign
+            1.3.6.1.4.1.311.21.1: 
+                ...
+            X509v3 Certificate Policies: 
+                Policy: X509v3 Any Policy
+                  CPS: http://dp.t-mobile.com/PKI/CPSstatement.asp
+
+            1.3.6.1.4.1.311.20.2: 
+                .
+.S.u.b.C.A
+            X509v3 Authority Key Identifier: 
+                keyid:E5:C1:B4:20:15:E8:A7:78:20:E6:C1:F9:E5:EF:E9:5A:76:7A:F7:A6
+
+            X509v3 CRL Distribution Points: 
+                URI:ldap:///CN=T-Mobile%20USA%20Root%20CA,CN=nxprdaspki01,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=GSM1900,DC=ORG?certificateRevocationList?base?objectClass=cRLDistributionPoint
+                URI:http://dp.t-mobile.com/PKI/T-Mobile%20USA%20Root%20CA.crl
+
+            Authority Information Access: 
+                CA Issuers - URI:ldap:///CN=T-Mobile%20USA%20Root%20CA,CN=AIA,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=GSM1900,DC=ORG?cACertificate?base?objectClass=certificationAuthority
+                CA Issuers - URI:http://dp.t-mobile.com/PKI/T-Mobile%20USA%20Root%20CA.crt
+
+    Signature Algorithm: sha1WithRSAEncryption
+        8b:f7:8b:c5:e9:b7:65:eb:e7:7b:f9:97:e4:d0:04:91:d1:e8:
+        69:5f:58:cd:8b:6e:45:7a:71:99:a0:19:8b:8c:55:96:14:72:
+        ea:a4:85:41:3e:39:60:46:b7:68:a9:12:a4:09:ca:1d:5f:bf:
+        a6:32:af:0f:50:a1:07:1b:39:2e:55:a2:e6:1c:78:cd:00:ad:
+        7f:ba:76:2e:50:b1:c1:a5:38:69:c5:2e:05:5f:f3:45:53:27:
+        98:40:3b:ab:44:5d:bd:d9:d5:b0:f8:0e:8a:c0:7a:8e:22:9b:
+        66:ed:37:48:28:e4:21:be:1f:b6:e4:b8:e9:e4:db:5b:50:de:
+        5c:3d:b6:4c:35:22:5e:1a:20:38:33:a4:6e:87:9d:aa:3b:04:
+        b0:6b:2b:b6:e9:af:83:5a:87:21:9c:ad:f1:e7:38:28:df:a0:
+        a1:9a:aa:68:63:6e:05:81:6b:2f:20:a9:fe:75:cc:87:8c:d0:
+        ab:87:21:0f:71:38:c9:bf:52:ff:58:7d:e3:68:e1:3f:2c:a4:
+        1c:2d:ab:27:b5:a4:8f:bd:c8:5c:51:2a:27:4f:49:8e:0a:db:
+        df:1d:14:e1:54:7d:40:0f:e4:91:ee:2c:25:64:c9:b2:d5:f9:
+        a2:3d:84:ad:f2:cc:fe:cb:29:1a:27:3a:ad:d2:24:84:5c:2c:
+        15:a1:78:e1
+-----BEGIN CERTIFICATE-----
+MIIF5jCCBM6gAwIBAgIKYQIfowAAAAAAAjANBgkqhkiG9w0BAQUFADAfMR0wGwYD
+VQQDExRULU1vYmlsZSBVU0EgUm9vdCBDQTAeFw0wNzAxMDQyMTM3MDBaFw0xODAx
+MDQyMTQ3MDBaMCoxKDAmBgNVBAMTH1QtTW9iaWxlIFVTQSBJbnRlcm1lZGlhdGUg
+Q0EgMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCYYhTGZPIBYEYe
+HNG+XH7EclBxjvG4v/ApnaAHOiZeGAnxCq/Esr4P53XMln5bDHDvVwgyPXSWDwMv
+GGxgRVOfR+mMSqe5Ez0akambXeY7/QqM6VxAnIZqtx8KSzbUhLk9Mja3frdrQF7j
+Uukil8yrXZ15hb/FHAVxinsX1Gs5fVukLJvLswhCWOlO8gBOcalbbihSmOoQSeVe
+QDX/FSsn7Y95tJNp4mBFShQbODNwAyHACu3dfKFLh9pU+6DwcUI8ARVv4vuKYD/5
+znxvrVrorSFyXSCb+U+/D0f1t4wm2c7JXQZVHyIkgrUwgFyCZWZoDZGDd76aWMfD
+jaQKbYGzAgMBAAGjggMXMIIDEzAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBSO
+zSBS2S9/km7aiLP8obkw7KWrWzALBgNVHQ8EBAMCAYYwEAYJKwYBBAGCNxUBBAMC
+AQAwTAYDVR0gBEUwQzBBBgRVHSAAMDkwNwYIKwYBBQUHAgEWK2h0dHA6Ly9kcC50
+LW1vYmlsZS5jb20vUEtJL0NQU3N0YXRlbWVudC5hc3AwGQYJKwYBBAGCNxQCBAwe
+CgBTAHUAYgBDAEEwHwYDVR0jBBgwFoAU5cG0IBXop3gg5sH55e/pWnZ696YwggEd
+BgNVHR8EggEUMIIBEDCCAQygggEIoIIBBIaBxmxkYXA6Ly8vQ049VC1Nb2JpbGUl
+MjBVU0ElMjBSb290JTIwQ0EsQ049bnhwcmRhc3BraTAxLENOPUNEUCxDTj1QdWJs
+aWMlMjBLZXklMjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxDTj1Db25maWd1cmF0aW9u
+LERDPUdTTTE5MDAsREM9T1JHP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFz
+ZT9vYmplY3RDbGFzcz1jUkxEaXN0cmlidXRpb25Qb2ludIY5aHR0cDovL2RwLnQt
+bW9iaWxlLmNvbS9QS0kvVC1Nb2JpbGUlMjBVU0ElMjBSb290JTIwQ0EuY3JsMIIB
+FQYIKwYBBQUHAQEEggEHMIIBAzCBuQYIKwYBBQUHMAKGgaxsZGFwOi8vL0NOPVQt
+TW9iaWxlJTIwVVNBJTIwUm9vdCUyMENBLENOPUFJQSxDTj1QdWJsaWMlMjBLZXkl
+MjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxDTj1Db25maWd1cmF0aW9uLERDPUdTTTE5
+MDAsREM9T1JHP2NBQ2VydGlmaWNhdGU/YmFzZT9vYmplY3RDbGFzcz1jZXJ0aWZp
+Y2F0aW9uQXV0aG9yaXR5MEUGCCsGAQUFBzAChjlodHRwOi8vZHAudC1tb2JpbGUu
+Y29tL1BLSS9ULU1vYmlsZSUyMFVTQSUyMFJvb3QlMjBDQS5jcnQwDQYJKoZIhvcN
+AQEFBQADggEBAIv3i8Xpt2Xr53v5l+TQBJHR6GlfWM2LbkV6cZmgGYuMVZYUcuqk
+hUE+OWBGt2ipEqQJyh1fv6Yyrw9QoQcbOS5VouYceM0ArX+6di5QscGlOGnFLgVf
+80VTJ5hAO6tEXb3Z1bD4DorAeo4im2btN0go5CG+H7bkuOnk21tQ3lw9tkw1Il4a
+IDgzpG6Hnao7BLBrK7bpr4NahyGcrfHnOCjfoKGaqmhjbgWBay8gqf51zIeM0KuH
+IQ9xOMm/Uv9YfeNo4T8spBwtqye1pI+9yFxRKidPSY4K298dFOFUfUAP5JHuLCVk
+ybLV+aI9hK3yzP7LKRonOq3SJIRcLBWheOE=
+-----END CERTIFICATE-----

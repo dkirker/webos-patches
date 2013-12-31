@@ -1,0 +1,78 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            31:1a:00:88:05:9a:3a:be:4a:fb:65:20:a6:f7:49:d8
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: CN=T-Mobile USA Root CA
+        Validity
+            Not Before: Jan  4 20:54:35 2007 GMT
+            Not After : Jan  4 21:00:47 2027 GMT
+        Subject: CN=T-Mobile USA Root CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:9d:67:c5:35:f8:f0:1e:e9:68:45:6e:b3:89:2f:
+                    40:b5:81:18:f2:00:93:36:46:6b:6a:6e:21:b5:27:
+                    3a:7d:14:dd:94:85:9e:13:10:7c:ff:27:76:a6:bd:
+                    cd:e6:9f:22:5d:16:08:cb:54:64:53:0d:a2:4f:d0:
+                    fb:3a:65:f2:3a:1d:0c:2c:6e:b4:a1:8c:2d:3a:77:
+                    75:90:cb:53:c0:14:b5:84:66:86:f7:88:7d:31:bf:
+                    88:57:c0:31:5c:ad:72:66:ca:11:84:52:7f:d9:fb:
+                    1e:9d:59:32:3d:f7:10:eb:9b:83:dd:fa:48:56:41:
+                    85:7c:25:d9:e1:c5:da:31:a3:71:3f:11:b8:04:2b:
+                    a7:c0:ac:1c:ac:5c:cf:97:0b:e7:2a:bf:50:b9:fb:
+                    8e:15:62:28:61:27:70:9c:df:ac:04:df:25:18:94:
+                    8b:a9:e5:ae:ef:13:ca:6c:57:2f:5c:cd:7a:d3:ee:
+                    21:56:5e:44:1f:db:c9:68:75:2b:ce:3c:2d:78:43:
+                    2d:87:a0:96:4d:8a:0d:ab:4b:bc:76:19:5a:38:a8:
+                    df:c0:dc:83:1e:11:dd:bf:7a:a1:e0:e0:33:88:b8:
+                    d8:93:91:43:4f:e3:7d:76:15:aa:e1:19:f6:7a:47:
+                    39:5c:36:b2:fe:5b:40:38:d0:8f:b9:7c:85:90:09:
+                    3d:fd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: 
+                Digital Signature, Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Subject Key Identifier: 
+                E5:C1:B4:20:15:E8:A7:78:20:E6:C1:F9:E5:EF:E9:5A:76:7A:F7:A6
+            1.3.6.1.4.1.311.21.1: 
+                ...
+    Signature Algorithm: sha1WithRSAEncryption
+        02:05:72:db:c9:2d:75:d3:06:ff:74:74:80:15:57:7a:9b:fb:
+        f9:cc:6e:56:88:d6:5f:0f:29:39:85:2e:30:09:f9:e7:78:8d:
+        31:f0:c3:bc:73:8c:df:1f:4d:72:b8:18:ab:63:c9:10:a5:be:
+        bd:c7:dc:af:1d:ab:4e:f9:05:75:41:68:bb:8f:75:bd:39:b8:
+        57:6e:7a:52:ff:47:12:7d:b0:dd:20:95:5e:8f:f2:50:36:d6:
+        58:11:8b:c7:ad:bc:cc:7e:20:44:43:46:c2:5b:8a:b8:6b:d0:
+        70:af:81:20:5b:a5:45:98:fd:89:0c:a1:d7:05:b4:9e:28:20:
+        49:d8:0a:af:a9:a7:fa:f4:bf:fe:3a:7e:90:68:6a:65:e2:43:
+        83:e0:0d:1d:48:75:84:4a:13:60:e2:90:5d:99:02:01:6d:f7:
+        be:5c:b9:1d:f1:31:5b:90:4b:3e:83:05:7d:f0:30:f5:46:f8:
+        3a:cc:69:15:e6:fd:9b:56:89:32:e2:dd:3f:33:e0:91:64:7a:
+        4e:ea:66:bb:6d:45:0b:3c:77:5a:27:eb:17:d0:5c:da:41:c6:
+        51:cf:67:f2:d4:66:d8:9a:55:dd:9b:7e:fd:50:29:fc:b4:54:
+        d0:28:b4:f8:14:e1:5e:c7:09:1b:c4:f5:02:a9:88:99:3e:a3:
+        94:70:63:0c
+-----BEGIN CERTIFICATE-----
+MIIDGTCCAgGgAwIBAgIQMRoAiAWaOr5K+2UgpvdJ2DANBgkqhkiG9w0BAQUFADAf
+MR0wGwYDVQQDExRULU1vYmlsZSBVU0EgUm9vdCBDQTAeFw0wNzAxMDQyMDU0MzVa
+Fw0yNzAxMDQyMTAwNDdaMB8xHTAbBgNVBAMTFFQtTW9iaWxlIFVTQSBSb290IENB
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnWfFNfjwHuloRW6ziS9A
+tYEY8gCTNkZram4htSc6fRTdlIWeExB8/yd2pr3N5p8iXRYIy1RkUw2iT9D7OmXy
+Oh0MLG60oYwtOnd1kMtTwBS1hGaG94h9Mb+IV8AxXK1yZsoRhFJ/2fsenVkyPfcQ
+65uD3fpIVkGFfCXZ4cXaMaNxPxG4BCunwKwcrFzPlwvnKr9QufuOFWIoYSdwnN+s
+BN8lGJSLqeWu7xPKbFcvXM160+4hVl5EH9vJaHUrzjwteEMth6CWTYoNq0u8dhla
+OKjfwNyDHhHdv3qh4OAziLjYk5FDT+N9dhWq4Rn2ekc5XDay/ltAONCPuXyFkAk9
+/QIDAQABo1EwTzALBgNVHQ8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4E
+FgQU5cG0IBXop3gg5sH55e/pWnZ696YwEAYJKwYBBAGCNxUBBAMCAQAwDQYJKoZI
+hvcNAQEFBQADggEBAAIFctvJLXXTBv90dIAVV3qb+/nMblaI1l8PKTmFLjAJ+ed4
+jTHww7xzjN8fTXK4GKtjyRClvr3H3K8dq075BXVBaLuPdb05uFduelL/RxJ9sN0g
+lV6P8lA21lgRi8etvMx+IERDRsJbirhr0HCvgSBbpUWY/YkModcFtJ4oIEnYCq+p
+p/r0v/46fpBoamXiQ4PgDR1IdYRKE2DikF2ZAgFt975cuR3xMVuQSz6DBX3wMPVG
++DrMaRXm/ZtWiTLi3T8z4JFkek7qZrttRQs8d1on6xfQXNpBxlHPZ/LUZtiaVd2b
+fv1QKfy0VNAotPgU4V7HCRvE9QKpiJk+o5RwYww=
+-----END CERTIFICATE-----
