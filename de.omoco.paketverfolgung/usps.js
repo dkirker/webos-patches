@@ -51,9 +51,9 @@ USPS.prototype.getDetailsRequestSuccess = function(response) {
 	// in-transit: 3
 	// in-transit + special: 4
 	// delivered: 5
-	// error: -1
-	// seized: -1
-	// archived: -1
+	// error: 0
+	// seized: 0
+	// archived: 0
 
 
 	var status = 0;
@@ -68,7 +68,8 @@ USPS.prototype.getDetailsRequestSuccess = function(response) {
 	}*/ else if (statusText.indexOf("delivered") != -1) {
 		status = 5;
 	} else {
-		status = -1;
+		status = 0;
+		this.callbackStatus(status);
 	}
 
 	if (status > 0) {
