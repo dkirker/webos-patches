@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+*********************************************************************
+
+*	Palm xml file for Generic Palm
+
+*
+
+*********************************************************************
+
+-->
+<!--
+
+*********************************************************************
+
+*	Palm handset UA Prof template
+
+*
+
+*	Version:		1.1
+
+*	Created:		10/30/09
+
+*	Organization:	Customer Equipment
+
+*	Modified: 		7/14/2010
+
+*
+
+*	Copyright 2009 Palm
+
+*
+
+*	Note
+
+*		Updated MMS Section
+
+*
+
+*	Revision History
+
+*		1.0	Initial Release
+
+*
+
+*		1.1	Updated MMS Section
+
+*
+
+*		1.2	Updated MMS Section. Cleaned up other sections
+
+*
+
+*		1.3	Added application/smil to supported media type; change "X" to "x" in MMS resolution
+
+*
+
+*		1.4	Updated MMS section. Added MmsContentClass
+
+*
+
+*********************************************************************
+
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mms="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#" xmlns:pss5="http://www.3gpp.org/profiles/PSS/ccppschema-PSS5#" xmlns:pss6="http://www.3gpp.org/profiles/PSS/ccppschema-PSS6#" xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#">
+
+	<rdf:Description rdf:ID="Profile">
+
+    	<prf:component>
+
+	<rdf:Description rdf:ID="HardwarePlatform">
+
+			<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#HardwarePlatform"/>
+
+        		<prf:Model>PalmPre/3.0</prf:Model>
+
+        		<prf:Vendor>Palm</prf:Vendor>        		
+
+        		<prf:BitsPerPixel>24</prf:BitsPerPixel>
+
+        		<prf:ColorCapable>Yes</prf:ColorCapable>
+
+        		<prf:ScreenSize>480x800</prf:ScreenSize>
+
+        		<prf:ImageCapable>Yes</prf:ImageCapable>
+
+        		<prf:PixelAspectRatio>1x1</prf:PixelAspectRatio>
+
+        		<prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+
+        		<prf:TextInputCapable>Yes</prf:TextInputCapable>
+
+        		<prf:VoiceInputCapable>No</prf:VoiceInputCapable>        		
+
+        		<prf:InputCharSet>
+
+          			<rdf:Bag>
+
+            			<rdf:li>US-ASCII</rdf:li>
+
+            			<rdf:li>UTF-8</rdf:li>
+
+	       			</rdf:Bag>
+
+        		</prf:InputCharSet>
+
+        		<prf:Keyboard>Qwerty</prf:Keyboard>
+
+        		<prf:NumberOfSoftKeys>0</prf:NumberOfSoftKeys>
+
+        		<prf:OutputCharSet>
+
+          			<rdf:Bag>
+
+            			<rdf:li>US-ASCII</rdf:li>
+
+            			<rdf:li>UTF-8</rdf:li>
+
+          			</rdf:Bag>
+
+        		</prf:OutputCharSet>
+
+        	</rdf:Description>
+
+    	</prf:component>
+
+    	
+
+        <prf:component>
+
+		<rdf:Description rdf:ID="SoftwarePlatform">
+
+			<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#SoftwarePlatform"/>
+
+        		<prf:AcceptDownloadableSoftware>No</prf:AcceptDownloadableSoftware>
+
+        		<prf:CcppAccept>
+
+          			<rdf:Bag>
+
+				  	<rdf:li>audio/AAC</rdf:li>
+
+  				  	<rdf:li>audio/AAC+</rdf:li>
+
+				  	<rdf:li>audio/MP3</rdf:li>
+
+				  	<rdf:li>audio/eAAC+</rdf:li>
+
+	                <rdf:li>audio/AMR-NB</rdf:li>
+
+                  	<rdf:li>audio/WAV</rdf:li>
+
+  				  	<rdf:li>audio/QCELP</rdf:li>
+
+  				  	<rdf:li>audio/mpeg</rdf:li>
+
+				  	<rdf:li>image/bmp</rdf:li>
+
+			 		<rdf:li>image/gif</rdf:li>
+
+                  	<rdf:li>image/jpeg</rdf:li>
+
+	              	<rdf:li>image/png</rdf:li>
+
+                  	<rdf:li>text/html</rdf:li>
+
+                  	<rdf:li>text/plain</rdf:li>
+
+                  	<rdf:li>text/xml</rdf:li>
+
+                  	<rdf:li>text/xsl</rdf:li>
+
+                  	<rdf:li>video/3gpp</rdf:li>
+
+                  	<rdf:li>video/mp4</rdf:li>
+
+					<rdf:li>video/mpeg</rdf:li>
+
+					<rdf:li>video/mpg</rdf:li>
+
+		          	</rdf:Bag>
+
+		        </prf:CcppAccept>
+
+        		<prf:CcppAccept-Charset>
+
+          			<rdf:Bag>
+
+			            <rdf:li>US-ASCII</rdf:li>
+
+			            <rdf:li>ISO-8859-1</rdf:li>
+
+                  		<rdf:li>UTF-16</rdf:li>
+
+			            <rdf:li>UTF-8</rdf:li>
+
+           			</rdf:Bag>
+
+        		</prf:CcppAccept-Charset>
+
+        		<prf:CcppAccept-Encoding>
+
+          			<rdf:Bag>
+
+            			<rdf:li>base64</rdf:li>
+
+          			</rdf:Bag>
+
+        		</prf:CcppAccept-Encoding>
+
+      	</rdf:Description>
+
+    	</prf:component>
+
+    	
+
+        <prf:component>
+
+		<rdf:Description rdf:ID="NetworkCharacteristics">
+
+			<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#NetworkCharacteristics"/>
+
+        		<prf:SecuritySupport>
+
+          			<rdf:Bag>
+
+			            <rdf:li>TLS-1.0</rdf:li>
+
+			            <rdf:li>SSL-3.0</rdf:li>
+
+					</rdf:Bag>
+
+        		</prf:SecuritySupport>
+
+        		<prf:SupportedBearers>
+
+		          <rdf:Bag>
+
+		            <rdf:li>GSM_GPRS_IPV4</rdf:li>
+
+		            <rdf:li>GSM_CSD_IPV4</rdf:li>
+
+		            <rdf:li>Desktop Passthrough</rdf:li>
+
+		          </rdf:Bag>
+
+        		</prf:SupportedBearers>
+
+      	</rdf:Description>
+
+    	</prf:component>
+
+
+
+    	<prf:component>
+
+		<rdf:Description rdf:ID="BrowserUA">
+
+			<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#BrowserUA"/>
+
+		        <prf:BrowserName>Web</prf:BrowserName>
+
+		        <prf:BrowserVersion>1.0</prf:BrowserVersion>
+
+		        <prf:HtmlVersion>4.01</prf:HtmlVersion>
+
+		        <prf:XhtmlVersion>XHTML-Basic/1.0</prf:XhtmlVersion>
+
+		        <prf:FramesCapable>No</prf:FramesCapable>
+
+		        <prf:PreferenceForFrames>No</prf:PreferenceForFrames>
+
+		        <prf:TablesCapable>Yes</prf:TablesCapable>
+
+      	</rdf:Description>
+
+    	</prf:component>
+
+
+
+    	
+
+	<prf:component>
+
+	<rdf:Description rdf:ID="MMSCharacteristics">
+
+      		<rdf:type rdf:resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics"/> 
+
+				<mms:MmsMaxMessageSize>614400</mms:MmsMaxMessageSize>
+
+				<mms:MmsMaxImageResolution>2032x1520</mms:MmsMaxImageResolution>
+
+				<mms:MmsCcppAccept>
+
+          			<rdf:Bag> 
+
+			    		<rdf:li>image/jpeg</rdf:li>  
+
+				  		<rdf:li>audio/mpeg</rdf:li>
+
+				  		<rdf:li>audio/aac</rdf:li>
+
+				  		<rdf:li>audio/amr</rdf:li>
+
+				  		<rdf:li>audio/3gpp</rdf:li>
+
+				  		<rdf:li>audio/mp4</rdf:li>
+
+	                    <rdf:li>video/3gpp2</rdf:li>
+
+	                    <rdf:li>video/mp4</rdf:li>	                    	                    
+
+	                    <rdf:li>video/3gpp</rdf:li>
+
+						<rdf:li>text/x-vCard</rdf:li>
+
+						<rdf:li>text/plain</rdf:li>
+
+						<rdf:li>application/vnd.wap.mms-message</rdf:li>
+
+						<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+
+						<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+						
+						<rdf:li>application/smil</rdf:li>
+       			
+				</rdf:Bag>
+
+				</mms:MmsCcppAccept>
+
+				<mms:MmsCcppAcceptCharSet>
+
+					<rdf:Bag>
+
+						<rdf:li>US-ASCII</rdf:li> 
+
+			 			<rdf:li>UTF-8</rdf:li>
+
+			 			<rdf:li>UTF-16BE</rdf:li>
+
+			 			<rdf:li>UTF-16LE</rdf:li>
+
+			 			<rdf:li>ISO-8859-1</rdf:li>
+
+		          	</rdf:Bag>
+
+				</mms:MmsCcppAcceptCharSet>
+
+				<mms:MmsContentClass>
+
+					<rdf:Bag>
+						<rdf:li>TX</rdf:li>
+
+						<rdf:li>IB</rdf:li>
+
+						<rdf:li>IR</rdf:li>
+
+						<rdf:li>VB</rdf:li>
+
+						<rdf:li>VR</rdf:li>
+
+					</rdf:Bag>
+
+				</mms:MmsContentClass>
+
+				<mms:MmsVersion>
+
+          			<rdf:Bag>
+
+            			<rdf:li>1.2</rdf:li>
+
+          			</rdf:Bag>
+
+				</mms:MmsVersion>
+
+      	</rdf:Description>
+
+    	</prf:component>
+
+
+
+
+
+<!-- Streaming -->
+
+  	<prf:component>
+
+	<rdf:Description rdf:ID="Streaming_PSS5">
+
+   	    <rdf:type rdf:resource="http://www.3gpp.org/profiles/PSS/ccppschema-PSS5#Streaming"/>
+
+          <pss5:VideoInitialPostDecoderBufferingPeriod>0</pss5:VideoInitialPostDecoderBufferingPeriod>
+
+          <pss5:AudioChannels>Stereo</pss5:AudioChannels>
+
+          <pss5:RenderingScreenSize>480x320</pss5:RenderingScreenSize>
+
+          <pss5:PssAccept>
+
+	    	<rdf:Bag>
+
+	        	<rdf:li>audio/AMR-NB</rdf:li>
+
+		  		<rdf:li>audio/MP3</rdf:li>
+
+		  		<rdf:li>audio/AAC</rdf:li>
+
+	        	<rdf:li>audio/AAC+</rdf:li>
+
+	        	<rdf:li>audio/eAAC+</rdf:li>
+
+	        	<rdf:li>audio/QCELP</rdf:li>
+
+	        	<rdf:li>audio/WAV</rdf:li>
+
+	        	<rdf:li>audio/mpeg</rdf:li>
+
+		  		<rdf:li>video/3gpp</rdf:li>
+
+		  		<rdf:li>video/mp4</rdf:li>
+
+	        	<rdf:li>video/m4v</rdf:li>
+
+	        	<rdf:li>video/m4a</rdf:li>
+
+	        	<rdf:li>video/mov</rdf:li>
+
+	        	<rdf:li>video/3GP</rdf:li>
+
+	        	<rdf:li>video/3G2</rdf:li>
+
+		  		<rdf:li>video/H263-2000;profile=0;level=45</rdf:li>
+
+		  		<rdf:li>video/H264</rdf:li>
+
+          	</rdf:Bag>
+
+            </pss5:PssAccept>
+
+            <pss5:VideoDecodingByteRate>64000</pss5:VideoDecodingByteRate>   
+
+            <pss5:VideoInitialPostDecoderBufferingPeriod>0</pss5:VideoInitialPostDecoderBufferingPeriod>
+
+            <pss5:VideoPreDecoderBufferSize>0</pss5:VideoPreDecoderBufferSize>
+
+          </rdf:Description>
+
+        </prf:component>
+
+
+
+	<prf:component>
+
+	<rdf:Description rdf:ID="Streaming_PSS6">
+
+   	    <rdf:type rdf:resource="http://www.3gpp.org/profiles/PSS/ccppschema-PSS6#Streaming"/> 
+
+	    <pss6:VideoDecodingByteRate>8000</pss6:VideoDecodingByteRate> 
+
+          <pss6:VideoInitialPostDecoderBufferingPeriod>0</pss6:VideoInitialPostDecoderBufferingPeriod>
+
+          <pss6:VideoPreDecoderBufferSize>0</pss6:VideoPreDecoderBufferSize>
+
+          <pss6:StreamingAccept>
+
+            <rdf:Bag>
+
+              	<rdf:li>audio/AMR-NB</rdf:li>
+
+		  		<rdf:li>audio/MP3</rdf:li>
+
+		  		<rdf:li>audio/AAC</rdf:li>
+
+	        	<rdf:li>audio/AAC+</rdf:li>
+
+	        	<rdf:li>audio/eAAC+</rdf:li>
+
+	        	<rdf:li>audio/QCELP</rdf:li>
+
+	        	<rdf:li>audio/WAV</rdf:li>
+
+	        	<rdf:li>audio/mpeg</rdf:li>
+
+		  		<rdf:li>video/3gpp</rdf:li>
+
+		  		<rdf:li>video/mp4</rdf:li>
+
+	        	<rdf:li>video/m4v</rdf:li>
+
+	        	<rdf:li>video/m4a</rdf:li>
+
+	        	<rdf:li>video/mov</rdf:li>
+
+	        	<rdf:li>video/3GP</rdf:li>
+
+	        	<rdf:li>video/3G2</rdf:li>
+
+		  		<rdf:li>video/H263-2000;profile=0;level=45</rdf:li>
+
+		  		<rdf:li>video/H264</rdf:li>
+
+             </rdf:Bag>
+
+   	    </pss6:StreamingAccept>
+
+   	    <pss6:AdaptationSupport>No</pss6:AdaptationSupport> 
+
+  	    <pss6:ExtendedRtcpReports>No</pss6:ExtendedRtcpReports> 
+
+  	    <pss6:RtpRetransmission>No</pss6:RtpRetransmission> 
+
+  	    <pss6:MediaAlternatives>No</pss6:MediaAlternatives> 
+
+   	    <pss6:RtpProfiles>
+
+              <rdf:Bag>
+
+                <rdf:li>RTP/AVP</rdf:li>
+
+              </rdf:Bag>
+
+              </pss6:RtpProfiles>
+
+     	      
+
+        </rdf:Description>
+
+        </prf:component>
+
+  	<!-- Streaming -->
+
+        </rdf:Description>
+
+</rdf:RDF>
